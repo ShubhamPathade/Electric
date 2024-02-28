@@ -1,0 +1,332 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="page-header">
+    <h3 class="page-title"> Ledger </h3>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Forms</a></li>
+            <li class="breadcrumb-item active" aria-current="page"> Ledger</li>
+        </ol>
+    </nav>
+</div>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                Payment for Goods
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse"
+             data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- <h4 class="card-title">Horizontal Two column</h4> -->
+                                <form class="form-sample">
+                                    <p class="card-description"> Payment info </p>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="txtShopSearch" class="">
+                                                    Shop
+                                                    Name
+                                                </label>
+                                                <input type="text" id="txtShopSearch"
+                                                       class="form-control" list="txtShopName"
+                                                       placeholder="Select Shop" />
+                                                <datalist id="txtShopName">
+                                                    <option value="0">Choose..</option>
+                                                    <option value="1">Shree</option>
+                                                    <option value="2">Shah</option>
+                                                    <option value="3">Leela</option>
+                                                    <option value="4">Mitesh</option>
+                                                </datalist>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="txtVendorSearch" class="">
+                                                    Person
+                                                    Name
+                                                </label>
+                                                <input type="text" list="txtVendor"
+                                                       id="txtVendorSearch" class="form-control"
+                                                       placeholder="Select Shop" />
+                                                <datalist id="txtVendor">
+                                                    <option value="0">Choose..</option>
+                                                    <option value="1"></option>
+                                                    <option value="2">Shah</option>
+                                                    <option value="3">Leela</option>
+                                                    <option value="4">Mitesh</option>
+                                                </datalist>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="txtBankNameSearch">Bank Name</label>
+                                                <input type="text" list="txtBankName"
+                                                       class="form-control" id="txtBankNameSearch"
+                                                       placeholder="Search Bank Name">
+                                                <datalist id="txtBankName">
+                                                    <option value="0">BOI</option>
+                                                    <option value="1">SBI</option>
+                                                    <option value="2">MAHA</option>
+                                                    <option value="3">JK</option>
+                                                </datalist>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="txtPaymentTypeSearch" class="">
+                                                    Payment
+                                                    Type
+                                                </label>
+                                                <input type="text" list="txtPaymentType"
+                                                       id="txtPaymentTypeSearch" class="form-control"
+                                                       placeholder="Select Payment Type" />
+                                                <datalist id="txtPaymentType">
+                                                    <option value="0">Choose..</option>
+                                                    <option value="1">Cash</option>
+                                                    <option value="2">NFT</option>
+                                                    <option value="3">RTGS</option>
+                                                    <option value="4">UPI</option>
+                                                </datalist>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="txtAmount" class="">Amount</label>
+                                                <input type="text" id="txtAmount"
+                                                       class="form-control" placeholder="Amount" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="txtPaymentDate" class="">
+                                                    Date
+                                                </label>
+                                                <input type="date" id="txtPaymentDate"
+                                                       class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="">Add Payment Note</label>
+                                                <textarea name="" class="form-control"
+                                                          id="txtPaymentDescription" cols="30" rows="10">
+
+                                                                    </textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-success">Add</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                Add Amount Of Good's Purchase
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse"
+             data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- <h4 class="card-title">Horizontal Two column</h4> -->
+                                <form class="form-sample">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="txtShopSearch" class="">
+                                                    Shop
+                                                    Name
+                                                </label>
+                                                <input type="text" id="txtShopSearch"
+                                                       class="form-control" list="txtShopName"
+                                                       placeholder="Select Shop" />
+                                                <datalist id="txtShopName">
+                                                    <option value="0">Choose..</option>
+                                                    <option value="1">Shree</option>
+                                                    <option value="2">Shah</option>
+                                                    <option value="3">Leela</option>
+                                                    <option value="4">Mitesh</option>
+                                                </datalist>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="txtInvoiceNumber" class="">
+                                                    Invoice
+                                                    Number
+                                                </label>
+                                                <input type="text" id="txtInvoiceNumber"
+                                                       class="form-control"
+                                                       placeholder="Invoice Number" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="txtAmount" class="">Amount</label>
+                                                <input type="text" id="txtAmount"
+                                                       class="form-control" placeholder="Amount" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="txtPaymentDate" class="">
+                                                    Date
+                                                </label>
+                                                <input type="date" id="txtPaymentDate"
+                                                       class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-danger">Add Amount</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                    aria-controls="flush-collapseTwo">
+                Vendor Ledgers
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+             data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Shop Details</h4>
+                            <!-- <p class="card-description"> Add class <code>.table-striped</code>
+                             </p> -->
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th> Photo </th>
+                                        <th> Shop Name </th>
+                                        <th> Address </th>
+                                        <th> Total Purchase </th>
+                                        <th> Total Paid </th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="py-1">
+                                            <img src="../../assets/images/faces-clipart/pic-1.png"
+                                                 alt="image" />
+                                        </td>
+                                        <td> Shree Agencies </td>
+                                        <td>
+                                            A. Nagar
+                                        </td>
+                                        <td> ₹ 15000.99 </td>
+                                        <td> ₹ 30000.45 </td>
+                                        <td>Over Due</td>
+                                        <td>
+                                            <button type="button"
+                                                    class="btn btn-info btn-icon btn-sm">
+                                                <i class="mdi mdi-book-open-page-variant"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1">
+                                            <img src="../../assets/images/faces-clipart/pic-1.png"
+                                                 alt="image" />
+                                        </td>
+                                        <td> Shah Traders </td>
+                                        <td>
+                                            A. Nagar
+                                        </td>
+                                        <td> ₹ 25000.99 </td>
+                                        <td> ₹ 45000.45 </td>
+                                        <td>Under Due</td>
+                                        <td>
+                                            <button type="button"
+                                                    class="btn btn-info btn-icon btn-sm">
+                                                <i class="mdi mdi-book-open-page-variant"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1">
+                                            <img src="../../assets/images/faces-clipart/pic-1.png"
+                                                 alt="image" />
+                                        </td>
+                                        <td> Leela Agencies </td>
+                                        <td>
+                                            A. Nagar
+                                        </td>
+                                        <td> ₹ 85000.99 </td>
+                                        <td> ₹ 45000.45 </td>
+                                        <td>Over Due</td>
+                                        <td>
+                                            <button type="button"
+                                                    class="btn btn-info btn-icon btn-sm">
+                                                <i class="mdi mdi-book-open-page-variant"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-1">
+                                            <img src="../../assets/images/faces-clipart/pic-1.png"
+                                                 alt="image" />
+                                        </td>
+                                        <td> Mitesh Nagar </td>
+                                        <td>
+                                            A. Nagar
+                                        </td>
+                                        <td> ₹ 75000.99 </td>
+                                        <td> ₹ 55000.45 </td>
+                                        <td>Over Due</td>
+                                        <td>
+                                            <button type="button"
+                                                    class="btn btn-info btn-icon btn-sm">
+                                                <i class="mdi mdi-book-open-page-variant"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

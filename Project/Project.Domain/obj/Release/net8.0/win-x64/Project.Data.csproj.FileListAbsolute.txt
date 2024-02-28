@@ -1,0 +1,17 @@
+D:\Projects\Project\Project.Domain\bin\Release\net8.0\win-x64\Project.Data.deps.json
+D:\Projects\Project\Project.Domain\bin\Release\net8.0\win-x64\Project.Data.runtimeconfig.json
+D:\Projects\Project\Project.Domain\bin\Release\net8.0\win-x64\Project.Data.dll
+D:\Projects\Project\Project.Domain\bin\Release\net8.0\win-x64\Project.Data.pdb
+D:\Projects\Project\Project.Domain\bin\Release\net8.0\win-x64\Project.Core.dll
+D:\Projects\Project\Project.Domain\bin\Release\net8.0\win-x64\Project.Core.pdb
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.csproj.AssemblyReference.cache
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.AssemblyInfoInputs.cache
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.AssemblyInfo.cs
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.csproj.CoreCompileInputs.cache
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.csproj.CopyComplete
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.dll
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\refint\Project.Data.dll
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.pdb
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\Project.Data.genruntimeconfig.cache
+D:\Projects\Project\Project.Domain\obj\Release\net8.0\win-x64\ref\Project.Data.dll

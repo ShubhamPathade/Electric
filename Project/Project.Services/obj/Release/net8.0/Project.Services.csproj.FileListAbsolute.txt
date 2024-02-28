@@ -1,0 +1,17 @@
+D:\Projects\Project\Project.Services\bin\Release\net8.0\Project.Services.deps.json
+D:\Projects\Project\Project.Services\bin\Release\net8.0\Project.Services.dll
+D:\Projects\Project\Project.Services\bin\Release\net8.0\Project.Services.pdb
+D:\Projects\Project\Project.Services\bin\Release\net8.0\Project.Core.dll
+D:\Projects\Project\Project.Services\bin\Release\net8.0\Project.Data.dll
+D:\Projects\Project\Project.Services\bin\Release\net8.0\Project.Core.pdb
+D:\Projects\Project\Project.Services\bin\Release\net8.0\Project.Data.pdb
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.csproj.AssemblyReference.cache
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.AssemblyInfoInputs.cache
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.AssemblyInfo.cs
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.csproj.CoreCompileInputs.cache
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.csproj.CopyComplete
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.dll
+D:\Projects\Project\Project.Services\obj\Release\net8.0\refint\Project.Services.dll
+D:\Projects\Project\Project.Services\obj\Release\net8.0\Project.Services.pdb
+D:\Projects\Project\Project.Services\obj\Release\net8.0\ref\Project.Services.dll

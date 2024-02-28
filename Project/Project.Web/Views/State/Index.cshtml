@@ -1,0 +1,34 @@
+﻿@model Project.Web.Models.States.StateModel
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <!-- <h4 class="card-title">Horizontal Two column</h4> -->
+                <form class="form-sample" asp-controller="State" asp-action="Index" method="post">
+                    <p class="card-description">
+                        State
+                    </p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="txtShopName" class="">State Name</label>
+                                <input type="text" asp-for="Name" class="form-control" placeholder="State Name" />
+                            </div>
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <button class="btn btn-gradient-success " type="submit">
+                                <i class="mdi mdi-account-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+</script>
